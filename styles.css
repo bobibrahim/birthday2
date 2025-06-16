@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    /*background: linear-gradient(white,black);*/
+    background: #ffffff;
+    background-image: 
+     linear-gradient(90deg,rgba(250, 3, 36, 0.5)50%,transparent 50%),
+     linear-gradient(rgba(250, 17, 95, 0.5)50%,transparent 50%);
+     background-size: 30px 30px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+h1, h2, h3, h4, p{
+    text-shadow: 1xp 1xp 1xp rgb(255, 255, 255);
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #ffffff;
+}
+#bday-age{
+     background: #ffffff;
+     padding: 1px 3px;
+     border-radius: 5px;
+} 
+
+#bday-date {
+     background: #ffffff;
+     padding: 1px 3px;
+     border-radius: 5px;
+     margin: 5px 0 10px 0;
+}
+#header {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-section {
+    margin-top: 50px;
+}
+.gift-title{
+    margin-bottom: 20px;
+
+}
+.gift-hint{
+    margin-top: 0px;
+}
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 500px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://i.imgur.com/fcgVRQe.jpeg");
+    background-size: cover;
+}
+#gift-img-happy:hover{
+    background-image: url("https://i.imgur.com/y23A1ax.gif");
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+}
+#gift-img-happy:focus{
+    background-image: url("https://i.imgur.com/y23A1ax.gif");
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+}
+#gift-img-hot:hover{
+    background-image: url("https://i.imgur.com/MZMLvjZ.gif");
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+}
+#gift-img-genius:hover{
+    background-image: url("https://i.imgur.com/4keHaM4.gif");
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+#gift-img-badass:hover{
+    background-image: url("https://i.imgur.com/5FkBpJ9.gif");
+    margin: 0 auto;
+}
+/*#gift-img-strawberry {
+    
+    width: 800px;
+    height: 800px;
+}
+    # are for id and they are supperior to class that are represent by . */
+#gift-img-strawberry:hover{
+    background-image: url("https://i.imgur.com/XnWEhfF.gif");
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+#footer {
+    width: 400px;
+    text-align: center;
+    margin: 40px auto 20px;
+     display: flex;
+     flex-direction: column;
+}
+footer{
+    margin-top: 50px;
+}
